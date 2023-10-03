@@ -12,7 +12,7 @@ function limpar() {
 
 function calcular() {
     try {
-        const resultado = eval(valorNoDisplay); 
+        const resultado = eval(valorNoDisplay); //pega uma expressão numerica na string e calcula
         valorNoDisplay = resultado.toString();
         document.getElementById('display').value = valorNoDisplay;
     } catch (erro) {
