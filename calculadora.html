@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculadora">
+        <input type="text" id="display">
+        <div class="botoes">
+            <button class="operador" onclick="limpar()">C</button>
+            <button onclick="anexar('7')">7</button>
+            <button onclick="anexar('8')">8</button>
+            <button onclick="anexar('9')">9</button>
+            <button class="operador" onclick="anexar('+')">+</button>
+            <button onclick="anexar('4')">4</button>
+            <button onclick="anexar('5')">5</button>
+            <button onclick="anexar('6')">6</button>
+            <button class="operador" onclick="anexar('-')">-</button>
+            <button onclick="anexar('1')">1</button>
+            <button onclick="anexar('2')">2</button>
+            <button onclick="anexar('3')">3</button>
+            <button class="operador" onclick="anexar('*')">*</button>
+            <button onclick="anexar('0')">0</button>
+            <button class="operador" onclick="calcular()">=</button>
+            <button class="operador" onclick="anexar('/')">/</button>
+
+        </div>
+    </div>
+    
+    <script type="text/javaScript" src="scripts.js"></script>
+</body>
+</html>
